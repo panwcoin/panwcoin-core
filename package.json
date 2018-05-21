@@ -1,0 +1,31 @@
+{
+  "name": "panwcoin-core",
+  "version": "1.0.0",
+  "description": "Firewall as a blockchain - The Most Powerful Firewall for Decentralized Applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test",
+    "start": "node ./app",
+    "dev": "nodemon ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panwcoin/panwcoin-core.git"
+  },
+  "author": "lei wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panwcoin/panwcoin-core/issues"
+  },
+  "homepage": "https://github.com/panwcoin/panwcoin-core#readme",
+  "devDependencies": {
+    "jest": "^22.4.4",
+    "nodemon": "^1.17.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3"
+  }
+}
