@@ -18,7 +18,7 @@ class Miner {
         // create a block consisting of the valid transactions 
         const block = this.blockchain.addBlock(validTransactions);
         // synchronize the chains in the peer-to-peer server 
-        this.p2pServer.syncChain();
+        this.p2pServer.syncChains();
         // clear the transaction pool 
         this.transactionPool.clear();
         // broadcast to every miner to clear their transaction pools 
